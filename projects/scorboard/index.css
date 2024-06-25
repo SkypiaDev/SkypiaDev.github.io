@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    align-content: center;
+    height: 100vh;
+    background: url(Basketball.webp) no-repeat center ;
+    background-size: cover;
+    
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 80%;
+    max-width: 575px;
+    background-color: #1B244A;
+    padding: 40px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+#container h3 {
+    color: white;
+    margin: 0px;
+    font-size: 2rem;
+}
+
+#counter-home, #counter-guest {
+    margin: auto;
+    color: #F94F6D;
+    min-width: 150px;
+    background-color: black;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    line-height: 126px;
+    }
+    
+#plus-1, #plus-2, #plus-3 {
+    width: 35px;
+    height: 30px;
+    font-size: 0.8rem;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 3px;
+    background-color: #1B244A;
+    margin-top: 10px;
+}
+
+#plus-1:hover, #plus-2:hover, #plus-3:hover {
+    transform: scale(1.2);
+}
+
+.winner {
+     border: 3px dotted whitesmoke;
+     box-shadow: 0px 0px 3px white;
+}
